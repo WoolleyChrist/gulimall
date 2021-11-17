@@ -1,8 +1,10 @@
 package com.wangfz.gulimall.member;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@MapperScan("com.wangfz.gulimall.member.dao")
 @SpringBootApplication
 public class GulimallMemberApplication {
 
